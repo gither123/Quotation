@@ -5,6 +5,9 @@
  */
 package the.working.app.pkgwhile.working;
 
+import java.awt.Frame;
+import javax.swing.JFrame;
+
 /**
  *
  * @author Pierre
@@ -15,7 +18,9 @@ public class TheWorkingAppWhileWorking {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        MainFrame gui = new MainFrame();
+        gui.setVisible(true);
     }
+    Object MainFrame;
     
 }
